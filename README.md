@@ -6,8 +6,9 @@ Steps to reproduce:
 1. Launch an `API 10` Android emulator
 2. Launch `Test App`
 3. Launch `Developers Settings`, and check `Immediatly destoy activities` **Important**
-4. Go to history menu and re-open the `Test App`
-5. `Test App` will crash
+4. Hit `Menu` key to move activity to background
+5. Go to history menu and re-open the `Test App`
+6. `Test App` will crash
 
 ###Screenshots:
 ![screenshot.png](screenshot1.png)
