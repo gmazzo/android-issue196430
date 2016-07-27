@@ -11,8 +11,9 @@ Steps to reproduce:
 6. `Test App` will crash
 
 ###Screenshots:
-![screenshot.png](screenshot1.png)
-![screenshot.png](screenshot2.png)
+![screenshot1.png](screenshot1.png)
+![screenshot2.png](screenshot2.png)
+![screenshot3.png](screenshot3.png)
 
 ###Logcat:
 ```
