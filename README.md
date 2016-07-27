@@ -5,10 +5,15 @@ Steps to reproduce:
 
 1. Launch an `API 10` Android emulator
 2. Launch `Test App`
-3. Launch `Developers Settings`, and check `Immediatly destoy activities` *(Important)*
+3. Launch `Developers Settings`, and check `Immediatly destoy activities` **Important**
 4. Go to history menu and re-open the `Test App`
-5. `Test App` will crash and logcat output should be:
+5. `Test App` will crash
 
+###Screenshots:
+![screenshot.png](screenshot1.png)
+![screenshot.png](screenshot2.png)
+
+###Logcat:
 ```
 E/AndroidRuntime: FATAL EXCEPTION: main
                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.android.issues.test.savedstatenoclassdeffoundtest/com.android.issues.test.savedstatenoclassdeffoundtest.TestActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: android.support.v7.widget.RecyclerView$SavedState
